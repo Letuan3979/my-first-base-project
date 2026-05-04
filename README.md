@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Tạo 50 commit dummy
-for i in {1..100}
+for i in {1..50}
 do
     # Tạo file dummy hoặc chỉnh sửa file hiện có (nếu không có file nào thì tạo file mới)
     echo "Commit số $i - $(date)" >> dummy_commits.txt
